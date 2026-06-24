@@ -13,4 +13,4 @@ My research broadly focuses on developing statistical methods to address challen
 I completed my Ph.D. at the University of California, San Diego, under the supervision of Professor [Wen-Xin Zhou](https://sites.google.com/view/wenxinzhou/), and was a postdoctoral researcher in the Department of Biostatistics at the University of Michigan, Ann Arbor, mentored by [Eric J Tchetgen Tchetgen](https://statistics.wharton.upenn.edu/profile/ett/) and [Xu Shi](http://www.xuritashi.com/).
 
 Prospective students and collaborators are always welcome to get in touch by
-[email](mailto:audgns5222@ewha.ac.kr).
+[audgns5222@ewha.ac.kr](mailto:audgns5222@ewha.ac.kr).
