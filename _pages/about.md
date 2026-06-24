@@ -7,18 +7,10 @@ redirect_from:
   - /about.html
 ---
 
-I am a Professor in the Department of Statistics at Cascadia University, where I
-direct the Lab for Statistical Inference. My research develops statistical methods
-for learning from complex, high-dimensional data — with a focus on **Bayesian
-inference**, **causal inference**, and the theory behind modern machine learning.
+I am an Assistant Professor in the Department of Statistics at Ewha Womans University. 
+My research broadly focuses on developing statistical methods to address challenges commonly encountered in observational studies, using parametric and semiparametric/nonparametric approaches. This includes (i) estimating causal effects in the presence of unmeasured confounding using valid or invalid proxy variables and (ii) addressing heavy-tailed and asymmetric errors in mean and expected shortfall regression settings.
 
-I completed my Ph.D. at *[University]* and was a postdoctoral fellow at *[Institute]*.
-My work asks how we can draw trustworthy conclusions from messy data: quantifying
-uncertainty honestly and reasoning carefully about cause and effect, in collaboration
-with researchers in medicine and public policy.
+I completed my Ph.D. at the University of California, San Diego, under the supervision of Professor [Wen-Xin Zhou](https://sites.google.com/view/wenxinzhou/), and was a postdoctoral researcher in the Department of Biostatistics at the University of Michigan, Ann Arbor, mentored by [Eric J Tchetgen Tchetgen](https://statistics.wharton.upenn.edu/profile/ett/) and [Xu Shi](http://www.xuritashi.com/).
 
 Prospective students and collaborators are always welcome to get in touch by
-[email](mailto:evelyn.carter@example.edu).
-
-*This is example content — replace it in `_pages/about.md`, and edit your sidebar
-details (name, photo, links) in `_config.yml`.*
+[email](mailto:audgns5222@ewha.ac.kr).
