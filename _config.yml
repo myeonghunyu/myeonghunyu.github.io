@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Evelyn Carter"
+title                    : "Myeonghun Yu"
 title_separator          : "-"
-name                     : &name "Evelyn Carter"
-description              : &description "Professor of Statistics at Cascadia University. Bayesian inference, causal inference, and statistical machine learning."
+name                     : &name "Myeonghun Yu"
+description              : &description "Assistant Professor of Statistics at Ewha Womans University. Causal inference, high-dimensional statistics and statistical machine learning."
 url                      : https://myeonghunyu.github.io
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -24,18 +24,18 @@ repository               : "myeonghunyu/myeonghunyu.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Evelyn Carter"
-  pronouns         : # example: "she/her"  
-  bio              : "Professor of Statistics. I work on Bayesian inference, causal inference, and statistical machine learning."
+  name             : "Myeonghun Yu"
+  pronouns         : # example: "he/his"  
+  bio              : "Assistant Professor of Statistics."
   location         : "Department of Statistics"
-  employer         : "Cascadia University"
+  employer         : "Ewha Womans University"
   uri              : # URL
-  email            : "evelyn.carter@example.edu"
+  email            : "audgns5222@ewha.ac.kr"
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/"
+  googlescholar    : "https://scholar.google.com/citations?user=TWsCxAUAAAAJ&hl=en"
   inspire-hep      : # URL
   impactstory      : # URL
   orcid            : "https://orcid.org/"
@@ -51,7 +51,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "evelyncarter"
+  github           : "myeonghunyu"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
