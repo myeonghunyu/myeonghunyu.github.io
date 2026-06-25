@@ -7,10 +7,16 @@ redirect_from:
   - /about.html
 ---
 
-I am an Assistant Professor in the Department of Statistics at Ewha Womans University. 
-My research broadly focuses on developing statistical methods to address challenges commonly encountered in observational studies, using parametric and semiparametric/nonparametric approaches. This includes (i) estimating causal effects in the presence of unmeasured confounding using valid or invalid proxy variables and (ii) addressing heavy-tailed and asymmetric errors in mean and expected shortfall regression settings.
+I am an Assistant Professor in the Department of Statistics at Ewha Womans University. Before joining Ewha, I was a postdoctoral researcher in the Department of Biostatistics at the University of Michigan, Ann Arbor, mentored by Professor [Eric J. Tchetgen Tchetgen](https://statistics.wharton.upenn.edu/profile/ett/) and Professor [Xu Shi](http://www.xuritashi.com/). I received my Ph.D. in Mathematics from the University of California, San Diego, under the supervision of Professor [Wen-Xin Zhou](https://sites.google.com/view/wenxinzhou/).
 
-I completed my Ph.D. at the University of California, San Diego, under the supervision of Professor [Wen-Xin Zhou](https://sites.google.com/view/wenxinzhou/), and was a postdoctoral researcher in the Department of Biostatistics at the University of Michigan, Ann Arbor, mentored by [Eric J Tchetgen Tchetgen](https://statistics.wharton.upenn.edu/profile/ett/) and [Xu Shi](http://www.xuritashi.com/).
+My research interests include:
 
-Prospective students and collaborators are always welcome to get in touch by
-[audgns5222@ewha.ac.kr](mailto:audgns5222@ewha.ac.kr).
+- Causal Inference
+- Proximal Causal Inference
+- Semiparametric and Nonparametric Methods
+- Robust Statistics
+- High-Dimensional Statistics
+- Quantile and Expected Shortfall Regression
+- Machine Learning and Deep Learning
+
+Email: [audgns5222 [at] ewha.ac.kr](mailto:audgns5222@ewha.ac.kr)
