@@ -6,37 +6,64 @@
 
 corresponding_note: "* indicates the corresponding author."
 
-# If this list is empty, the page falls back to the existing files in _publications/.
-publications: []
+publications:
+  - authors: "**Myeonghun Yu**, Kean Ming Tan, Huixia Judy Wang, and Wen-Xin Zhou"
+    year: "2026"
+    title: "Deep Neural Expected Shortfall Regression with Tail-Robustness"
+    url: "https://arxiv.org/abs/2511.08772"
+    venue: "Journal of Machine Learning Research"
+    details: "accepted"
+    
+  - authors: "Xu Shi, Kendrick Qijun Li, **Myeonghun Yu**, Wang Miao, Arun Kumar Kuchibhotla, Mengtong Hu, and Eric Tchetgen Tchetgen"
+    year: "2026"
+    title: "Theory for Identification and Inference with Synthetic Controls: A Proximal Causal Inference Framework"
+    url: "https://doi.org/10.1080/01621459.2026.2639734"
+    venue: "Journal of the American Statistical Association"
+    details: "1-13"
 
-# Example:
-# publications:
-#   - authors: "**Myeonghun Yu*** and Coauthor"
-#     year: "2026"
-#     title: "Published paper title"
-#     url: "https://doi.org/..."
-#     venue: "Journal Name"
-#     details: "12(3), 1-20"
+  - authors: "**Myeonghun Yu**, Yue Wang, Siyu Xie, Kean Ming Tan, and Wen-Xin Zhou"
+    year: "2025"
+    title: "Estimation and Inference for Nonparametric Expected Shortfall Regression over RKHS"
+    url: "https://doi.org/10.1080/01621459.2024.2441657"
+    venue: "Journal of the American Statistical Association"
+    details: "120(552), 2314-2325"
 
-preprints: []
+  - authors: "**Myeonghun Yu**, Zhao Ren, and Wen-Xin Zhou"
+    year: "2024"
+    title: "Gaussian Differentially Private Robust Mean Estimation and Inference"
+    url: "https://doi.org/10.3150/23-BEJ1706"
+    venue: "Bernoulli"
+    details: "30(4), 3059-3088"
 
-# Example:
-# preprints:
-#   - authors: "**Myeonghun Yu*** and Coauthor"
-#     year: "2026"
-#     title: "Preprint title"
-#     url: "https://arxiv.org/abs/..."
-#     venue: "arXiv preprint"
+  - authors: "**Myeonghun Yu**, Qiang Sun, and Wen-Xin Zhou"
+    year: "2024"
+    title: "Low-Rank Matrix Recovery Under Heavy-Tailed Errors"
+    url: "https://doi.org/10.3150/23-BEJ1675"
+    venue: "Bernoulli"
+    details: "30(3), 2326-2345"
 
-grants: []
+preprints:
+  - authors: "**Myeonghun Yu**, Xu Shi, and Eric J. Tchetgen Tchetgen"
+    year: "2025"
+    title: "Fortified Proximal Causal Inference with Many Invalid Proxies"
+    url: "https://arxiv.org/abs/2506.13152"
+    venue: "arXiv preprint arXiv:2506.13152"
+    details: "Reject and Resubmit, Journal of the Royal Statistical Society Series B"
 
-# Example:
-# grants:
-#   - text: "(PI) Grant title (grant number), Mar 2026 ~ Feb 2036"
+grants:
+  - text: "(PI) Ewha Startup Grant, Mar 2026 ~ Feb 2028"
+  - text: "(PI) Ewha Startup Grant from College of Natural Science, Mar 2026 ~ Feb 2028"
 
-reviewer: []
-
-# Example:
-# reviewer:
-#   - text: "Journal of the American Statistical Association"
-#   - text: "The Annals of Statistics"
+reviewer:
+  - text: "American Journal of Epidemiology"
+  - text: "Annals of Applied Statistics"
+  - text: "Annals of Statistics"
+  - text: "Electronic Journal of Statistics"
+  - text: "Epidemiology"
+  - text: "Journal of Business and Economic Statistics"
+  - text: "Journal of Computational and Graphical Statistics"
+  - text: "Journal of Econometrics"
+  - text: "Journal of Machine Learning Research"
+  - text: "Journal of the American Statistical Association"
+  - text: "Journal of the Royal Statistical Society: Series B"
+  - text: "Statistica Sinica"
