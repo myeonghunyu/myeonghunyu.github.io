@@ -2,11 +2,24 @@
 layout: archive
 title: "Teaching"
 permalink: /teaching/
-author_profile: true
+author_profile: false
+hide_title: true
 ---
 
-{% include base_path %}
+{% assign teaching = site.data.teaching %}
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+<div class="teaching-page">
+  {% for group in teaching.groups %}
+    <section class="teaching-section">
+      <h2>{{ group.institution }}</h2>
+
+      <ul class="teaching-list">
+        {% for course in group.courses %}
+          <li>
+            <span class="teaching-course">{{ course.title }}</span>{% if course.level %} <span class="teaching-level">({{ course.level }})</span>{% endif %}{% if course.terms %}, <span class="teaching-terms">{{ course.terms }}</span>{% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    </section>
+  {% endfor %}
+</div>

@@ -1,9 +1,3 @@
-# Research page content.
-#
-# Use Markdown in author/text fields when helpful, for example:
-#   authors: "**Myeonghun Yu*** and Coauthor"
-# The star can mark the corresponding author.
-
 corresponding_note: "* indicates the corresponding author."
 
 publications:
@@ -13,7 +7,7 @@ publications:
     url: "https://arxiv.org/abs/2511.08772"
     venue: "Journal of Machine Learning Research"
     details: "accepted"
-    
+
   - authors: "Xu Shi, Kendrick Qijun Li, **Myeonghun Yu**, Wang Miao, Arun Kumar Kuchibhotla, Mengtong Hu, and Eric Tchetgen Tchetgen"
     year: "2026"
     title: "Theory for Identification and Inference with Synthetic Controls: A Proximal Causal Inference Framework"

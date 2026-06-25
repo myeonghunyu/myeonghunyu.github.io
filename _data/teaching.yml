@@ -1,0 +1,8 @@
+groups:
+  - institution: "Ewha Womans University"
+    courses:
+      - title: "Probability Theory"
+        level: "Graduate"
+        terms: "Spring 2026"
+      - title: "Mathematics for Statistics"
+        terms: "Spring 2026"
