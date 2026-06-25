@@ -1,0 +1,42 @@
+# Research page content.
+#
+# Use Markdown in author/text fields when helpful, for example:
+#   authors: "**Myeonghun Yu*** and Coauthor"
+# The star can mark the corresponding author.
+
+corresponding_note: "* indicates the corresponding author."
+
+# If this list is empty, the page falls back to the existing files in _publications/.
+publications: []
+
+# Example:
+# publications:
+#   - authors: "**Myeonghun Yu*** and Coauthor"
+#     year: "2026"
+#     title: "Published paper title"
+#     url: "https://doi.org/..."
+#     venue: "Journal Name"
+#     details: "12(3), 1-20"
+
+preprints: []
+
+# Example:
+# preprints:
+#   - authors: "**Myeonghun Yu*** and Coauthor"
+#     year: "2026"
+#     title: "Preprint title"
+#     url: "https://arxiv.org/abs/..."
+#     venue: "arXiv preprint"
+
+grants: []
+
+# Example:
+# grants:
+#   - text: "(PI) Grant title (grant number), Mar 2026 ~ Feb 2036"
+
+reviewer: []
+
+# Example:
+# reviewer:
+#   - text: "Journal of the American Statistical Association"
+#   - text: "The Annals of Statistics"

@@ -4,35 +4,90 @@ title: "Research"
 permalink: /research/
 redirect_from:
   - /publications/
-author_profile: true
+author_profile: false
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
-
 {% include base_path %}
+{% assign research = site.data.research %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
+<div class="research-page">
+  <section class="research-section" id="publications">
+    <h2>Publications</h2>
+
+    {% if research.corresponding_note %}
+      <p class="research-note">{{ research.corresponding_note }}</p>
+    {% endif %}
+
+    <ul class="research-list">
+      {% if research.publications and research.publications.size > 0 %}
+        {% for item in research.publications %}
+          {% include research-entry.html item=item %}
+        {% endfor %}
+      {% else %}
+        {% for post in site.publications reversed %}
+          {% unless post.category == "preprints" or post.category == "preprint" %}
+            <li>
+              <a class="research-title-link" href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>.
+              {% if post.venue %}<span class="research-venue">{{ post.venue }}</span>{% endif %}
+              {% if post.date %}, <span class="research-year">{{ post.date | date: "%Y" }}</span>{% endif %}.
+            </li>
+          {% endunless %}
+        {% endfor %}
       {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+    </ul>
+  </section>
 
+  <section class="research-section" id="preprints">
+    <h2>Preprints</h2>
 
+    <ul class="research-list">
+      {% if research.preprints and research.preprints.size > 0 %}
+        {% for item in research.preprints %}
+          {% include research-entry.html item=item %}
+        {% endfor %}
+      {% else %}
+        {% for post in site.publications reversed %}
+          {% if post.category == "preprints" or post.category == "preprint" %}
+            <li>
+              <a class="research-title-link" href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>.
+              {% if post.venue %}<span class="research-venue">{{ post.venue }}</span>{% endif %}
+              {% if post.date %}, <span class="research-year">{{ post.date | date: "%Y" }}</span>{% endif %}.
+            </li>
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+    </ul>
+  </section>
 
+  <section class="research-section" id="grants">
+    <h2>Grants</h2>
+
+    <ul class="research-list">
+      {% for item in research.grants %}
+        <li>
+          {% if item.text %}
+            {{ item.text | markdownify | remove: "<p>" | remove: "</p>" }}
+          {% else %}
+            {{ item | markdownify | remove: "<p>" | remove: "</p>" }}
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <section class="research-section" id="reviewer">
+    <h2>Reviewer</h2>
+
+    <ul class="research-list research-list--compact">
+      {% for item in research.reviewer %}
+        <li>
+          {% if item.text %}
+            {{ item.text | markdownify | remove: "<p>" | remove: "</p>" }}
+          {% else %}
+            {{ item | markdownify | remove: "<p>" | remove: "</p>" }}
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+</div>

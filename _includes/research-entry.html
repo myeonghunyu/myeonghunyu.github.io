@@ -1,0 +1,30 @@
+<li>
+  {% if include.item.authors %}
+    <span class="research-authors">{{ include.item.authors | markdownify | remove: "<p>" | remove: "</p>" }}</span>
+  {% endif %}
+
+  {% if include.item.year %}
+    <span class="research-year">({{ include.item.year }}).</span>
+  {% endif %}
+
+  {% if include.item.title %}
+    {% assign item_url = include.item.url | default: include.item.paperurl %}
+    {% if item_url %}
+      <a class="research-title-link" href="{{ item_url }}">{{ include.item.title }}</a>.
+    {% else %}
+      <span class="research-title">{{ include.item.title }}</span>.
+    {% endif %}
+  {% endif %}
+
+  {% if include.item.venue %}
+    <span class="research-venue">{{ include.item.venue | markdownify | remove: "<p>" | remove: "</p>" }}</span>{% if include.item.details %},{% else %}.{% endif %}
+  {% endif %}
+
+  {% if include.item.details %}
+    <span class="research-details">{{ include.item.details | markdownify | remove: "<p>" | remove: "</p>" }}</span>.
+  {% endif %}
+
+  {% if include.item.note %}
+    <span class="research-entry-note">{{ include.item.note | markdownify | remove: "<p>" | remove: "</p>" }}</span>
+  {% endif %}
+</li>
