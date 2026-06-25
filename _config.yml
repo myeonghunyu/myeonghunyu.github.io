@@ -27,8 +27,8 @@ author:
   name             : "Myeonghun Yu"
   pronouns         : # example: "he/his"  
   bio              : "Assistant Professor of Statistics."
-  location         : "Department of Statistics"
-  employer         : "Ewha Womans University"
+  location         : "South Korea"
+  employer         :
   uri              : # URL
   email            : "audgns5222@ewha.ac.kr"
 
@@ -38,7 +38,7 @@ author:
   googlescholar    : "https://scholar.google.com/citations?user=TWsCxAUAAAAJ&hl=en"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/0000-0001-5652-8275"
+  orcid            :
   semantic         : # URL
   ssrn             : # URL
   pubmed           :
